@@ -1,6 +1,8 @@
 # Mount Media
 Mount Media is a simple program written in bash that can mount devices from a GUI. It does require zenity though, because I'm too lazy to learn GTK+ dialogs for C++.
 
+## [Get the Program](https://github.com/aarikpokras/mountmedia-arch/archive/refs/heads/master.zip)
+
 ## Installing Zenity
 For Arch Linux, run:
 ```bash
