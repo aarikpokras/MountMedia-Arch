@@ -5,7 +5,7 @@ result=$(zenity --entry --entry-text="sda" --text="$(for i in $disks; do ((index
 if [ "$(lsblk | grep $result >& /dev/null;echo $?)" -eq 0 ]; then
   re2=$(zenity --entry --entry-text="/media/you" --text="Where to mount $result?" --title="Mount Location")
   if [ -d $re2 ]; then
-    zenity --info --text="Please enter your password on the terminal window." --title="Permissions needed"
+#    zenity --info --text="Please enter your password on the terminal window." --title="Permissions needed"
     sudo mount /dev/$result $re2
   else
     zenity --error --text="Invalid mount point. Make sure it's a directory and try again."
