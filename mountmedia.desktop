@@ -2,8 +2,8 @@
 Encoding=UTF-8
 Version=1.0
 Type=Application
-Terminal=true
-Exec=echo It looks like something went wrong with the installation script. Replace this with the "bash " and then the path to the sh file.
-Icon=x
+Terminal=false
+Exec=bash /home/aarik/Desktop/mountmedia/mountinit.sh
+Icon=/home/aarik/Desktop/mountmedia/hdd.png
 Categories=Settings;Accessories;
 Name=Mount Media
